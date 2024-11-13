@@ -14,7 +14,7 @@ use Swoole\Database\PDOProxy;
 class PDOPool extends ConnectionPool
 {
     /** @var int */
-    protected int $size = 64;
+    protected $size = 64;
 
     /** @var PDOConfig */
     protected $config;
@@ -24,7 +24,7 @@ class PDOPool extends ConnectionPool
      * @param $config
      * @param int $size
      */
-    public function __construct(PDOConfig $config, int $size = self::DEFAULT_SIZE)
+    public function __construct(PDOConfig $config, $size = self::DEFAULT_SIZE)
     {
         $this->config = $config;
         parent::__construct(function () {

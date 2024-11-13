@@ -1,5 +1,5 @@
 {
-  "name": "guanhui07/database",
+  "name": "wetalk/database",
   "description": "The Swoole Pool Database package.",
   "license": "MIT",
   "keywords": [
@@ -9,9 +9,15 @@
     "Sql",
     "ORM"
   ],
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/wetalk/database"
+    }
+  ],
   "require": {
-    "php": ">=7.4.0",
-    "illuminate/database": "^8.0",
+    "php": ">=7.2.0",
+    "illuminate/database": "^10.0",
     "symfony/console": "^5.1",
     "ext-pdo": "*"
   },
