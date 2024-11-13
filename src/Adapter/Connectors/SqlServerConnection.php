@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Guanhui07\SwooleDatabase\Adapter\Connectors;
+namespace Wetalk\SwooleDatabase\Adapter\Connectors;
 
 /**
  * Class SqlServerConnection
- * @package Guanhui07\SwooleDatabase\Adapter\Connectors
+ * @package Wetalk\SwooleDatabase\Adapter\Connectors
  */
 class SqlServerConnection extends \Illuminate\Database\SqlServerConnection
 {

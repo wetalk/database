@@ -1,12 +1,12 @@
 <?php
 
-namespace Guanhui07\SwooleDatabase\Utils;
+namespace Wetalk\SwooleDatabase\Utils;
 
 use Swoole\Coroutine;
 
 /**
  * Class Context
- * @package Guanhui07\SwooleDatabase\Utils
+ * @package Wetalk\SwooleDatabase\Utils
  */
 class Context
 {

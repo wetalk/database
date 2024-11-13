@@ -1,6 +1,6 @@
 <?php
 
-namespace Guanhui07\SwooleDatabase;
+namespace Wetalk\SwooleDatabase;
 
 use PDO;
 use Swoole\ConnectionPool;

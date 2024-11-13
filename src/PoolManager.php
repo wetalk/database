@@ -1,17 +1,17 @@
 <?php
 
 
-namespace Guanhui07\SwooleDatabase;
+namespace Wetalk\SwooleDatabase;
 
 
 use Exception;
-use Guanhui07\SwooleDatabase\Utils\Context;
+use Wetalk\SwooleDatabase\Utils\Context;
 use RuntimeException;
 
 /**
  * 连接池管理(全局)
  * Class PoolManager
- * @package Guanhui07\SwooleDatabase
+ * @package Wetalk\SwooleDatabase
  */
 class PoolManager
 {

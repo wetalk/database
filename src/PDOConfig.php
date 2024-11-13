@@ -1,10 +1,10 @@
 <?php
 
-namespace Guanhui07\SwooleDatabase;
+namespace Wetalk\SwooleDatabase;
 /**
  * 配置实例
  * Class PDOConfig
- * @package Guanhui07\SwooleDatabase
+ * @package Wetalk\SwooleDatabase
  */
 class PDOConfig
 {

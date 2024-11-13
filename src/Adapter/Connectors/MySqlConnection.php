@@ -1,14 +1,14 @@
 <?php
 
-namespace Guanhui07\SwooleDatabase\Adapter\Connectors;
+namespace Wetalk\SwooleDatabase\Adapter\Connectors;
 
 
 use Illuminate\Database\Events\StatementPrepared;
-use Guanhui07\SwooleDatabase\Adapter\QueryBuilder;
+use Wetalk\SwooleDatabase\Adapter\QueryBuilder;
 /**
  * Mysql 连接适配器
  * Class MySqlConnection
- * @package Guanhui07\SwooleDatabase\Adapter\Connectors
+ * @package Wetalk\SwooleDatabase\Adapter\Connectors
  */
 class MySqlConnection extends \Illuminate\Database\MySqlConnection
 {
